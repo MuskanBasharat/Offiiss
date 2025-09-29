@@ -195,7 +195,7 @@ const CertifiedProfessionals = () => {
     playStore: "https://play.google.com/store/apps/details?id=com.offiiss.provider"
   };
   return (
-    <section className="relative w-full min-h-screen">
+    <section className="relative w-full">
       <div className="relative mx-auto">
         
         {/* Background Images with Gradient Overlay */}
