@@ -30,7 +30,7 @@ export default function Hero() {
         Your goods, our mission — from port to your door, Offiiss streamlines every step.
       </p>
     
-      <div className="mt-8 flex justify-center space-x-4">
+      <div className="mt-8 flex justify-center button-container">
  <button 
         className="button-1" 
         onClick={() => setIsPopup1Open(true)}
