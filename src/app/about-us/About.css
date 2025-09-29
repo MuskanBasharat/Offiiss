@@ -577,4 +577,7 @@
     height: 265px;
     background-position: center;
   }
+  .div-last{
+    margin:10px 0px;
+  }
 }
