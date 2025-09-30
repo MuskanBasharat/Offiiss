@@ -87,7 +87,7 @@
     padding: 10px 10px;
     background-color:white;
     color: #002b5b;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 12px;
     font-size: 17px;
     width: 200px;
@@ -211,6 +211,7 @@
         margin-bottom: 0px;
         width: 150px;
         font-size: 14px;
+        padding: 15px 10px;
     }
 }
 
@@ -400,7 +401,7 @@
 .but-1{
     background-color: white;
     color: #002b5b;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 12px;
     font-size: 17px;
     width: 200px;
@@ -415,7 +416,7 @@
 .but-2{
     background-color: #002b5b;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 12px;
     font-size: 17px;
     width: 200px;
@@ -507,7 +508,7 @@
   }
   .butt{
     font-size: 14px;
-    padding: 10px;
+    padding: 15px 10px;
   }
   .text-section {
         text-align: left;
