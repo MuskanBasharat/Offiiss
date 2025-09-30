@@ -209,6 +209,8 @@
     }
     .main-btns{
         margin-bottom: 0px;
+        width: 150px;
+        font-size: 14px;
     }
 }
 
@@ -504,8 +506,8 @@
     margin: 40px 0px;
   }
   .butt{
-    font-size: 16px;
-    padding: 10px 5px;
+    font-size: 14px;
+    padding: 10px;
   }
   .text-section {
         text-align: left;
