@@ -21,7 +21,7 @@ export default function Features() {
 
   return (
     <section className="features">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 px-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 card-section-feature px-8">
         {featureItems.map((item, idx) => (
           <div key={idx} className="card">
             <img src={item.image} alt={item.title} className="icons" />

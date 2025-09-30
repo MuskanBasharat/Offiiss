@@ -6,15 +6,18 @@
     
 }
 .grid{
-    gap: 4rem;
+    gap: 2rem;
 }
-.card{
-    background: rgb(247, 247, 247);
+.card-section-feature{
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+    
+}
+.card {
+    background: #f7f7f7;
     border-radius: 16px;
-    padding: 2rem 3rem;
-    transition: all 0.3s ease;
-    width: 360px;
-
+    width: 330px;
+    padding: 1rem 2rem;
+    transition: all .3s;
 }
 .card:hover{
     transform: translateY(-2px);
@@ -101,12 +104,18 @@
         margin: auto;
     }
     .card{
-        width: 95%;
+        width: 100%;
         margin-bottom: 1.5rem;
         padding: 1rem 1.5rem;
     }
     .grid{
         gap: 0;
+    }
+    .card-section-feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
 }

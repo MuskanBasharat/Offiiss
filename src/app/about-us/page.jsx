@@ -53,7 +53,7 @@ const AboutHero = () => {
         </p>
       </div>
 
-      <div className="mt-10 flex justify-center hero-img">
+      <div className="flex justify-center hero-img">
       </div>
     </section>
   );
@@ -95,7 +95,7 @@ const WhatWeDo = () => {
 // Our Story Component
 const OurStory = () => {
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto">
+    <section className="py-20 px-4 max-w-7xl mx-auto what-section">
       <div className="what-container">
         <div className="relative h-96 rounded-2xl overflow-hidden order-2 md:order-1 what-img-2">
         </div>
@@ -195,7 +195,7 @@ const CertifiedProfessionals = () => {
     playStore: "https://play.google.com/store/apps/details?id=com.offiiss.provider"
   };
   return (
-    <section className="relative w-full">
+    <section className="relative w-full last-section-about">
       <div className="relative mx-auto">
         
         {/* Background Images with Gradient Overlay */}

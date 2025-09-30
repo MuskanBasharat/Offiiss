@@ -98,7 +98,7 @@
 }
 
 .what-section{
-  padding: 120px 90px;
+  padding: 120px 50px 30px;
 }
 
 .what-text{
@@ -233,6 +233,9 @@
      color: rgb(19, 16, 46);
 
 }
+.last-section-about{
+    border-bottom:2px solid white ;
+}
 .bg-img{
   background-image: url("https://framerusercontent.com/images/inb2d7mQQ5SrF2WNGJDmt5uM.jpg");
   position: relative;
@@ -245,7 +248,7 @@
 }
 
 .doted-bg{
-  opacity: 12%;
+  opacity: 10%;
 }
 .container-last{
     align-items: flex-start;
@@ -379,7 +382,6 @@
 }
 
 
-
 @media (max-width:1200px) {
   .head1-hero{
         font-size: 65px;
@@ -410,7 +412,7 @@
     background-position: 0 -187px;
   }
   .what-section{
-    padding: 90px 20px;
+    padding: 90px 20px 30px;
   }
   .what-img{
     width: 380px;
@@ -459,6 +461,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   
   }
   .aboutus{
@@ -478,6 +481,9 @@
     width: 100%;
     height: 480px;
     background-position: center;
+  }
+  .what-section{
+    padding: 30px 0px;
   }
  .what-text{
      font-size: 18px;
@@ -514,7 +520,7 @@
       height: auto;
     }
     .last-texts{
-      width: 330px;
+      width: 305px;
     }
     .btns-container{
       display: flex;
@@ -546,9 +552,7 @@
     height: 380px;
     background-position: center;
   }
-  .what-text{
-    padding: 20px;
-  }
+  
   .what-about{
     line-height: 50%;
   }
@@ -558,8 +562,8 @@
 }
 @media (max-width:480px) {
   .head1-hero{
-    font-size: 40px;
-    width: 98%;
+    font-size: 37px;
+    width: 100%;
   }
   .hero-img{
     width: 100%;
@@ -571,6 +575,9 @@
     height: 265px;
         background-position: center;
 
+  }
+  .what-text{
+    padding: 10px;
   }
   .what-img-2{
     width: 100%;
