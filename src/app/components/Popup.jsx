@@ -17,7 +17,7 @@ const AppStoreIcon = () => (
 
 );
 
-const Popup = ({ isOpen, onClose, appStoreLink, playStoreLink }) => {
+const Popup = ({ isOpen, onClose, appStoreLink, playStoreLink, heading = "Get this App" }) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -46,13 +46,13 @@ const Popup = ({ isOpen, onClose, appStoreLink, playStoreLink }) => {
         <button className="close-button" onClick={onClose}>
           ×
         </button>
-        <h2>Get this App</h2>
+        <h2>{heading}</h2>
         <p>Download our app from:</p>
         <div className="download-options">
             {/* App Store Button */}
           <button className="store-button" onClick={handleAppStore}>
             <div className="store-button-content" onClick={onClose}>
-              <span className="store-button-main-text">AVAILABLE ON</span>
+            {/* <span className="store-button-main-text">AVAILABLE ON</span> */}
               <span className="store-button-platform">App Store</span>
             </div>
             <div className="store-button-icon">
@@ -62,7 +62,7 @@ const Popup = ({ isOpen, onClose, appStoreLink, playStoreLink }) => {
           {/* Google Play Button */}
           <button className="store-button" onClick={handlePlayStore}>
             <div className="store-button-content" onClick={onClose}>
-              <span className="store-button-main-text">Get IT ON</span>
+           {/*   <span className="store-button-main-text">Get IT ON</span>*/}
               <span className="store-button-platform">Google Play</span>
             </div>
             <div className="store-button-icon">

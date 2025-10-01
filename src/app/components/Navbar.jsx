@@ -99,6 +99,8 @@ export default function Navbar() {
         onClose={() => setIsPopup1Open(false)}
         appStoreLink={button1Links.appStore}
         playStoreLink={button1Links.playStore}
+        heading="Get Offiiss App"
+
       />
           </div>
           
@@ -182,6 +184,8 @@ export default function Navbar() {
   }}
         appStoreLink={button1Links.appStore}
         playStoreLink={button1Links.playStore}
+        heading="Get Offiiss App"
+
       />
         </div>
       </div>

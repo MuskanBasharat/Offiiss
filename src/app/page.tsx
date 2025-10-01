@@ -9,6 +9,7 @@ import ForDrivers from "./components/ForDrivers";
 import AppDownload from "./components/AppDownload";
 import TrustedBy from "./components/TrustedBy";
 import Footer from "./components/Footer";
+import ScrollToTop from './components/scrollToTop'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header/>
       <Navbar />
       <Hero />
+      <ScrollToTop />
       <Features />
       <ForImporters />
       <ForAgents/>

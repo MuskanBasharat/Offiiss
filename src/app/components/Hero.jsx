@@ -49,6 +49,8 @@ export default function Hero() {
         onClose={() => setIsPopup1Open(false)}
         appStoreLink={button1Links.appStore}
         playStoreLink={button1Links.playStore}
+        heading="Get Offiiss App"
+
       />
 
       <Popup 
@@ -56,6 +58,8 @@ export default function Hero() {
         onClose={() => setIsPopup2Open(false)}
         appStoreLink={button2Links.appStore}
         playStoreLink={button2Links.playStore}
+        heading="Get Offiiss Freighter"
+
       />
       </div>
       </div>

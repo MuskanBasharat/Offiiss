@@ -51,6 +51,8 @@ One account. No hustle.</p>
         onClose={() => setIsPopup1Open(false)}
         appStoreLink={button1Links.appStore}
         playStoreLink={button1Links.playStore}
+        heading="Get Offiiss Freighter"
+
       />
         </div>
         

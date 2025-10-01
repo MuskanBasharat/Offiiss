@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import "./About.css";
 import Popup from '../components/Popup'; // Adjust path as needed
 import { useState } from "react";
+import ScrollToTop from '../components/scrollToTop'
 
 export default function AboutUs() {
 
@@ -17,7 +18,7 @@ export default function AboutUs() {
         
         {/* Hero Section */}
         <AboutHero />
-        
+        <ScrollToTop />
         {/* What We Do Section */}
         <WhatWeDo />
         

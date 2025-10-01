@@ -47,22 +47,27 @@ const Footer = () => {
             <div className="group-title">Main</div>
             <Link href="/" className="link-item link-hover">Home</Link>
             <Link href="/about-us" className="link-item link-hover">About Us</Link>
+                  <Link href="/privacy" className="link-item link-hover">Privacy Policy</Link>
+
           </div>
 
           {/* Contact Links */}
           <div className="link-group">
-            <div className="group-title">Contact</div>
-            <div className="link-item">Call: +233 551643306</div>
-            <div className="link-item">info@offiiss.com</div>
+            <div className="group-title">Phone:</div>
+            <div className="link-item">US, Can: <a href="tel:+16046183396" className='link-hover'> +1 604-618-3396</a></div>
+          <div className="link-item">Ghana: <a href="tel:+233572012642" className='link-hover'> +233 572-012-42</a></div>
           </div>
 
           {/* Legal Links */}
           <div className="link-group">
-            <div className="link-item">Privacy Policy</div>
-            <div className="link-item">Terms and Conditions</div>
-            <div className="link-item">© 2025 Offiiss.</div>
+            <div className="group-title">Email:</div>
+            <div className="link-item"><a href="mailto:Support@offiiss.com" className='link-hover'>Support@offiiss.com</a></div>
+           <div className="link-item">© 2025 Offiiss.</div>
+
+            
           </div>
         </div>
+        
          <div className="social-icons hidden-sm">
             <a href="https://twitter.com/NinjaDesigner1" target="_blank" rel="noopener noreferrer" className="social-icon">
               <svg width="24" height="24" viewBox="0 0 256 256" fill="rgba(255, 255, 255, 0.5)">
