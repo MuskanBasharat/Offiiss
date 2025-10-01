@@ -70,7 +70,7 @@
         padding: 0px 20px 20px;
     }
     .h1-privacy{
-        font-size: 55px;
+        font-size: 32px;
         margin: 0px;
     }
     .para-privacy{
@@ -81,19 +81,24 @@
     }
 }
 @media (max-width:480px) {
+    .body-privacy{
+        padding: 0px;
+    }
     .h1-privacy{
-        font-size: 44px
+        font-size: 28px
 
     }
     .para-privacy{
-        padding: 20px;
+        padding: 5px 20px;
     }
     .h2-privacy{
-        font-size: 33px;
+        font-size: 27px;
         font-weight: 700;
+        letter-spacing: -0.03em;
+        margin: 0px 0px 20px;
     }
     .h3-privacy{
-        font-size: 24px;
+        font-size: 22px;
     }
     .para-2{
         margin-top: -40px;
