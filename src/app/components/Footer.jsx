@@ -55,10 +55,9 @@ const Footer = () => {
 
           {/* Contact Links */}
           <div className="link-group">
-            <div className="group-title">Contact:</div>
-            <div className="link-item">US, Can: <a href="tel:+16046183396" className='link-hover'> +1 604-618-3396</a></div>
-          <div className="link-item">Ghana: <a href="tel:+233572012642" className='link-hover'> +233 572-012-42</a></div>
-                      <div className="link-item">Email: <a href="mailto:Support@offiiss.com" className='link-hover'>Support@offiiss.com</a></div>
+            <div className="group-title">Contact</div>
+          <div className="link-item">Call: <a href="tel:+233572012642" className='link-hover'> +233 572-012-42</a></div>
+                      <div className="link-item">Email: <a href="mailto:Support@offiiss.com" className='link-hover'>support@offiiss.com</a></div>
                                              <div className="link-item">© 2025 Offiiss.</div>
 
 

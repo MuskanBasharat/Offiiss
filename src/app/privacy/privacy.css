@@ -47,10 +47,13 @@
     letter-spacing: -0.04em;
 }
 .privacy-p{
-    color: #878484;
-    font-size: 18px;
-    line-height: 140%;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1)) /* #6b7280 */;
     margin-bottom: 30px;
+    font-size: 18px;
+    font-family: Inter, Inter Placeholder, sans-serif;
+    line-height: 150%;
+
 }
 .list-ol{
     list-style: circle;
@@ -78,6 +81,9 @@
     }
     .h2-privacy{
         font-size: 35px;
+    }
+    .privacy-p{
+        font-size: 16px;
     }
 }
 @media (max-width:480px) {
