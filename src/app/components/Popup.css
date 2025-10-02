@@ -52,7 +52,6 @@
   color: #333;
 }
 
-/* Download options */
 .download-options{
     flex-direction: column;
     gap: 15px;
@@ -60,6 +59,7 @@
     display: flex;
     width: 100%;
 }
+
 .store-button {
   display: flex;
   align-items: center;
