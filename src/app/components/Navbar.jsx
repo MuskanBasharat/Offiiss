@@ -84,7 +84,7 @@ export default function Navbar() {
             <Link href="/" className={`links ${isActive("/")}`}>
               Home
             </Link>
-            <Link href="/about-us" className={`links ${isActive("/AboutUs")}`}>
+            <Link href="/about-us" className={`links ${isActive("/about-us")}`}>
               About Us
             </Link>
           </div>
@@ -165,7 +165,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/about-us"
-              className={`links ${isActive("/AboutUs")}`}
+              className={`links ${isActive("/about-us")}`}
               onClick={closeMenu}
             >
               About Us

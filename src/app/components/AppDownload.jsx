@@ -29,19 +29,19 @@ export default function AppDownload() {
           <div className="image-stack">
             <div className="image-layer shadow-layer">
               <img 
-                src="https://framerusercontent.com/images/kZRJyMBLs98fQGurqwztxYERsyU.png" 
+                src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/shadow.avif" 
                 alt="Phone shadow"
               />
             </div>
             <div className="image-layer main-layer">
               <img 
-                src="https://framerusercontent.com/images/61VB5LG4ATIkdpL08GusBbP5I.png" 
+                src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/mobile.avif" 
                 alt="Phone frame"
               />
             </div>
             <div className="image-layer screen-layer">
               <img 
-                src="https://framerusercontent.com/images/U38LIqqmn2QEpdKWmqrLnTCcSM.png" 
+                src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/layer.avif" 
                 alt="App screenshot"
               />
             </div>

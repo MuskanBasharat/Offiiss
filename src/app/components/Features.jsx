@@ -5,17 +5,17 @@ export default function Features() {
     {
       title: "Instant Access to Vetted Professionals",
       description: "Connect with verified clearing agents and truck drivers in real-time.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGhJFYLzVK1lxwWCEWKnzwIWQEbQuM0OODhw&s",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/verify.jpeg",
     },
     {
       title: "Direct Communication & Live Updates",
       description: "Chat, call, and track deliveries all within the app.",
-      image: "https://static.vecteezy.com/system/resources/previews/004/532/089/non_2x/new-email-notification-3d-icon-3d-realistic-email-icon-3d-email-vector.jpg",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/email.jpg",
     },
     {
       title: "Safe, Transparent, and Cashless",
       description: "No middlemen. No hidden fees. Pay securely through the platform.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuzhXcy5UlQ4Qluc2oocd8AtEKHBzbgFdJvQ&s",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/coin.jpeg",
     },
   ];
 

@@ -17,7 +17,7 @@ export default function TrustedBy () {
           {/* Top row - Wide logo */}
           <div className="logo-item wide-logo">
             <img 
-              src="https://framerusercontent.com/images/nG4W6yWyR53jOkK5OZcmxpY.png" 
+              src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/6c91ffd7e22905ed597b0946999f70548265560a/logo1.webp" 
               alt="IMPORTERS & EXPORTERS ASSOCIATION OF GHANA" 
               className="logo-img"
             />
@@ -26,12 +26,12 @@ export default function TrustedBy () {
           {/* Middle row - Two square logos */}
           <div className="logo-item square-logo images-container">
             <img 
-              src="https://framerusercontent.com/images/6SneBJ4F0sa3h95SglRMeLaMc.png" 
+              src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/6c91ffd7e22905ed597b0946999f70548265560a/logo2.avif" 
               alt="SHIP" 
               className="logo-img"
             />
             <img 
-              src="https://framerusercontent.com/images/sDkKHMfJuYfaaFxAuerpxywFMk.png" 
+              src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/6c91ffd7e22905ed597b0946999f70548265560a/logo3.webp" 
               alt="TITOR" 
               className="logo-img"
             />
@@ -40,7 +40,7 @@ export default function TrustedBy () {
           {/* Bottom row - Single square logo */}
           <div className="logo-item square-logo">
             <img 
-              src="https://framerusercontent.com/images/dxqTFCfL3VW1PqPXdvYVNjjwFY.png" 
+              src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/6c91ffd7e22905ed597b0946999f70548265560a/logo4.avif" 
               alt="HIGHER" 
               className="logo-img"
             />

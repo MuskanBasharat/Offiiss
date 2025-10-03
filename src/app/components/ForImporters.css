@@ -46,7 +46,7 @@
     position: relative;
   width: 500px;
   height: 400px;
-  background-image: url("https://framerusercontent.com/images/rl1rIy19xCErAeUh7Zsi06XcM.jpg?scale-down-to=1024");
+  background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/importer.avif");
   overflow: hidden;
   border-radius: 18px;
   border: none;
@@ -58,7 +58,7 @@
     position: relative;
   width: 500px;
   height: 400px;
-  background-image: url("https://framerusercontent.com/images/e8mA03Vuwvp7HN7KJsQdtw7kAU.jpg?scale-down-to=1024");
+  background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/agent.avif");
   overflow: hidden;
   border-radius: 18px;
   border:none;
@@ -67,7 +67,7 @@
   background-position: center;
 }
 .image-driver {
-    background-image: url("https://framerusercontent.com/images/WbeYw58LcSG2HLew2jius5HVcQA.jpg");
+    background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/driver.avif");
     background-position: -70px;
     background-repeat: no-repeat;
     background-size: 635px 372px;

@@ -137,17 +137,17 @@ const ContactUs = () => {
     {
       title: "Our Email",
       content:"info@offiiss.com",
-      image: "https://framerusercontent.com/images/3UVXYH1EdmUpBSVSme1GAc1X4L0.png?scale-down-to=512",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/email.jpg",
     },
     {
       title: "Our Phone Number",
       content:"+233 551 643 3306",
-      image: "https://framerusercontent.com/images/3UVXYH1EdmUpBSVSme1GAc1X4L0.png?scale-down-to=512",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/phone.jpeg",
     },
     {
       title: "Office Address",
       content:"North Legon, Accra Ghana",
-      image: "https://framerusercontent.com/images/olDuEi5gG1rFBCFY2CHpZKA.png?scale-down-to=512",
+      image: "https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/office.png",
     },
   ];
 
@@ -209,7 +209,7 @@ const CertifiedProfessionals = () => {
           {/* Dot Pattern Overlay */}
           <div className="absolute inset-0 w-full h-full doted-bg">
             <img
-              src="https://framerusercontent.com/images/AH04BOzihZM4r0RiR32r0ppC4.svg"
+              src="https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/dot.svg"
               alt="Dot Grid Pattern"
               fill
               className="object-contain object-center mix-blend-overlay"

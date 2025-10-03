@@ -30,7 +30,7 @@
   margin: auto;
   padding: 60px 0px 80px;
   width: 100%;
-  background-image: url("https://framerusercontent.com/images/AH04BOzihZM4r0RiR32r0ppC4.svg");
+  background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/dot.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -75,7 +75,7 @@
   color: rgb(94, 91, 127);
 }
 .hero-img {
-    background-image: url("https://framerusercontent.com/images/PdWFKjXpfJbWEeEfArAOlPY7rk.jpg");
+    background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/about.avif");
     background-position: 0px -321px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@
 
 }
 .what-img {
-    background-image: url(https://framerusercontent.com/images/Q90TDpVJDoaYSprP4X0rGS02t1I.jpg?scale-down-to=1024);
+    background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/what-img.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@
   position: relative;
   width: 500px;
   height: 400px;
-  background-image: url("https://framerusercontent.com/images/e8mA03Vuwvp7HN7KJsQdtw7kAU.jpg?scale-down-to=1024");
+  background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/agent.avif");
   overflow: hidden;
   border-radius: 8px;
   border:none;
@@ -160,7 +160,7 @@
 .card-contact{
   align-content: flex-start;
     align-items: flex-start;
-    background-color: #fff;
+    background: #f7f7f7;
     border-radius: 20px;
     display: flex;
     flex: 1 0 0px;
@@ -210,8 +210,11 @@
   width: 100%;
 }
 .img-contact{
-  width: 62px;
-  height: 62px;
+  width: 80px;
+  height: 80px;
+     border: 2px solid #f2efef;
+    border-radius: 32px;
+    background-color:white ;
 }
 .contact-title{
    font-size: 18px;
@@ -223,10 +226,7 @@
   flex-direction: column;
   gap: 8px;
 }
-.card-image{
-  width: 80px;
-  height: 80px;
-}
+
 .contact-content{
      font-size: 20px;
      font-weight: 700;
@@ -239,7 +239,7 @@
     border-bottom:2px solid white ;
 }
 .bg-img{
-  background-image: url("https://framerusercontent.com/images/inb2d7mQQ5SrF2WNGJDmt5uM.jpg");
+  background-image: url("https://raw.githubusercontent.com/MuskanBasharat/asstes_offiiss/refs/heads/main/last.avif");
   position: relative;
   overflow: hidden;
   border:none;
