@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import './privacy.css';
 import ScrollToTop from "../components/scrollToTop";
+import Link from 'next/link';
+
 
 export default function Privacy() {
 
@@ -109,7 +111,7 @@ export default function Privacy() {
         <h3 className="h3-privacy">6. Data Deletion Requests</h3>
         <p className="privacy-p">If you wish to delete your account and associated data, please follow these steps:
             <ol className="num-ol">
-                <li>Visit our Data Deletion Request Form.</li>
+                <li>Visit our <Link href="/delete_data" className="link-privacy">Data Deletion Request Form</Link>.</li>
                 <li>Fill in the required fields, including your name and contact information.</li>
                 <li>Submit the form, and we will process your request within <b>7 business days.</b> </li>
             </ol>
